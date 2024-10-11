@@ -1,0 +1,86 @@
+body{
+    background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+    font-family: 'Sixtyfour Convergence','sans-serif';
+    padding: 40px;
+}
+
+h1,h2,p{
+    text-align: center;
+}
+
+.menu{
+    background-color: burlywood;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.flavor, .dessert{
+    text-align: left;
+    display: inline-block;
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.price{
+    text-align: right;
+    display: inline-block;
+    width: 25%;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.established{
+    font-style: italic;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+hr{
+    height: 3px;
+    background-color: brown;
+    border: none;
+}
+footer{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.item {
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+   
+}
+
+.item:hover{
+    opacity: 0.8;
+}
